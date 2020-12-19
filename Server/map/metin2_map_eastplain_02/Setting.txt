@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	256
+
+MapSize	3	6
+BasePosition	1152000	435200
+TextureSet	textureset\metin2_eastplain.txt
+Environment	Eastplain_02.msenv
+
