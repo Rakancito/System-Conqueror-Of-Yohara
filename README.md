@@ -2,7 +2,7 @@
  Conqueror-of-Yohara
 
 
-# NOTE
+# Note
 
 1. The maps are empty, in essence it's the system.
 
@@ -23,3 +23,14 @@ https://gyazo.com/e8ea4037842b0089cb9b5c73c5084e32
 
 https://gyazo.com/fb3827c483c605286dc5142d37193923
 
+# Instructions
+
+If you want add other map or modify the index, you will need modify this in length.h
+
+enum EConquerorMap
+{
+	EASTPLAIN_01 = 184,
+	EASTPLAIN_02 = 185,
+	EASTPLAIN_03 = 186,
+	EMPIRECASTLE = 187,
+};
