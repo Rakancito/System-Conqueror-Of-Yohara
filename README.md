@@ -2,7 +2,7 @@
  Conqueror-of-Yohara
 
 
-# NOTE
+# Note
 
 1. The maps are empty, in essence it's the system.
 
