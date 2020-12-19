@@ -75,3 +75,17 @@ enum EPKModes
 	POINT_CONQUEROR_EXP = 212,
 	POINT_CONQUEROR_NEXT_EXP = 213,
 #endif
+
+//Search
+
+};
+
+ESex GET_SEX(LPCHARACTER ch);
+
+#endif
+
+//add before
+
+
+	public:
+		bool			IsConquerorMap(int iMapIndex);
