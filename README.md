@@ -34,3 +34,5 @@ enum EConquerorMap
 	EASTPLAIN_03 = 186,
 	EMPIRECASTLE = 187,
 };
+
+You will need a some visual parts, you can with: https://github.com/Rakancito/9Skills-Conquerors-Yohara
