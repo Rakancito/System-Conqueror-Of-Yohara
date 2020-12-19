@@ -1,0 +1,1 @@
+I will send you my all Python, that's you orient yourself :) , you will need search all ENABLE_CONQUEROR_LEVEL
