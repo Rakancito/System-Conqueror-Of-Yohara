@@ -11,3 +11,19 @@
 	APPLY_SUNGMA_MOVE = 124,
 	APPLY_SUNGMA_INMUNE = 125,
 #endif
+
+//Search
+
+enum EGuildWarType
+{
+
+//add before, this is your index map :)
+
+enum EConquerorMap
+{
+	EASTPLAIN_01 = 184,
+	EASTPLAIN_02 = 185,
+	EASTPLAIN_03 = 186,
+	EMPIRECASTLE = 187,
+};
+
