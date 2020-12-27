@@ -1,5 +1,16 @@
 //Search
 
+	PLAYER_MAX_LEVEL_CONST	= 250,
+
+//Add after
+
+#ifdef ENABLE_CONQUEROR_LEVEL
+	PLAYER_MAX_CONQUEROR_LEVEL_CONST	= 30,
+#endif
+
+
+//Search
+
 	MAX_APPLY_NUM					= 127,
 };
 
