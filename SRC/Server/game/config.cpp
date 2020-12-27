@@ -26,7 +26,7 @@ int gPlayerConquerorMaxLevel = 30;
 		{
 			str_to_number(gPlayerConquerorMaxLevel, value_string);
 
-			gPlayerConquerorMaxLevel = MINMAX(1, gPlayerConquerorMaxLevel, PLAYER_MAX_LEVEL_CONST);
+			gPlayerConquerorMaxLevel = MINMAX(1, gPlayerConquerorMaxLevel, PLAYER_MAX_CONQUEROR_LEVEL_CONST);
 
 			fprintf(stderr, "PLAYER_CONQUEROR_MAX_LEVEL: %d\n", gPlayerConquerorMaxLevel);
 		}
