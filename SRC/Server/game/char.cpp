@@ -367,7 +367,7 @@ DWORD CHARACTER::GetConquerorNextExp() const
 	if (PLAYER_MAX_LEVEL_CONST < GetConquerorLevel())
 		return 2500000000u;
 	else
-		return exp_table[GetConquerorLevel()];
+		return exp_coqueror_table[GetConquerorLevel()];
 }
 
 #endif
