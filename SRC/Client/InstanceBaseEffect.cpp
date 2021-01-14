@@ -7,7 +7,7 @@ UINT CInstanceBase::GetNameColorIndex()
 	if (IsPC())
 	{
 
-//Add after
+//Add after (Remove if you put before moment, sorry but it's not important)
 
 #ifdef ENABLE_CONQUEROR_LEVEL
 		if (m_dwConquerorLevel)
@@ -55,9 +55,9 @@ void CInstanceBase::RefreshTextTail()
 #ifdef ENABLE_CONQUEROR_LEVEL
 void CInstanceBase::UpdateTextTailConquerorLevel(DWORD level)
 {
-	static D3DXCOLOR s_kLevelColor = D3DXCOLOR(0.0f, 191.0f, 255.0f, 255.0f);
+	//static D3DXCOLOR s_kLevelColor = D3DXCOLOR(0.0f, 191.0f, 255.0f, 255.0f);
 	char szText[256];
 	sprintf(szText, "Lv %d ", level);
-	CPythonTextTail::Instance().AttachLevel(GetVirtualID(), szText, s_kLevelColor);
+	CPythonTextTail::Instance().AttachConquerorLevel(GetVirtualID(), szText);
 }
 #endif
